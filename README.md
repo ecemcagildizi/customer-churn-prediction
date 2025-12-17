@@ -1,0 +1,48 @@
+# Customer Churn Prediction using Machine Learning
+
+This project aims to predict customer churn using machine learning techniques and to identify the key factors that influence customer retention. 
+The goal is not only to build a predictive model, but also to extract meaningful business insights that can help reduce customer churn.
+
+
+
+## Dataset
+The dataset used in this project is the Customer Churn dataset, which contains 7,043 customer records with demographic, service usage, and contract information.
+
+- Target Variable : Churn (Yes/No)
+- Numerical Features : tenure, MonthlyCharges, TotalCharges
+- Categorical Features : contract type, internet service, payment method
+
+
+
+## Methodology 
+
+- Exploratory Data Analysis (EDA)
+- Data cleaning and handling missing values
+- Feature engineering and one-hot encoding
+- Feature scaling using StandardScaler
+- Model training using Logistic Regression
+- Model evaluation using Accuracy, Classification Report, and ROC-AUC
+
+
+
+## Model Performance
+- Accuracy : ~80%
+- ROC - AUC : 0.836
+
+The ROC - AUC score indicates strong discriminatory power, especially important for imbalanced datasets like customer churn.
+
+
+
+
+## Key Insights 
+- Long-term contracts (1 year and 2 year) significantly reduce churn risk 
+- Customer tenure is one of the strongest indicators of retention
+- Fiber optic internet service is associated with higher churn, possibly due to pricing or service expectations 
+
+
+
+## Technologies Used 
+- Python
+- Pandas & NumPy 
+- Scikit - Learn
+- Matplotlib & Seaborn
